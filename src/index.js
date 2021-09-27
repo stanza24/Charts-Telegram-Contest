@@ -1,9 +1,6 @@
-import { Watch } from "./class/Watch";
+import { Charts } from "./class/Charts";
 import "./style.less";
 
 const canvas = document.getElementById("canvas");
-const width = window.innerWidth / 2;
-const height = window.innerHeight / 1.5;
-const radius = (height - 10) / 2;
 
-new Watch(canvas, width, height, radius);
+new Charts(canvas, window.innerWidth / 2, window.innerHeight / 2);
